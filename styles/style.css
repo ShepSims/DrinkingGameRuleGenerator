@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #FBC101;
+    background-color: lightgray;
     align-items: center;
     padding-top: 50px;
 }
@@ -24,11 +24,11 @@ div{
 
 /* Style the header */
 .header {
-    background-color: #FBC101;
+    background-color: black;
     text-align: center;
     font-size: 500%;
-    font-family: "Arial Black";
-    color: black;
+    font-family: "Courier New";
+    color: white;
     font-weight: bold;
     padding-bottom: none;
 }
@@ -39,8 +39,8 @@ div{
     border: none; 
     padding: 12px 40px; 
     font-size: 16px; 
-    background-color: deepskyblue; 
-    color: #fff; 
+    background-color: lightslategray; 
+    color: black; 
     border-radius: 5px; 
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
     cursor: pointer; 
@@ -54,11 +54,21 @@ div{
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
 } 
 
+option:checked {
+  background: red linear-gradient(0deg, red 0%, red 100%);
+}
+
 select {
-    align-self: center;
-    text-align: center;
-    background:#FBC101;
-    border:none;
-    height:100px;
-    width:260px;
+    height : 10vh;
+    position : absolute;
+    top: 90vh;
+    background:lightgray;
+    border: none;
+    box-shadow: none;
+    display: block;
+    margin: 0 auto;
+}
+
+select:focus {
+  outline: none;
 }
