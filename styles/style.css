@@ -27,7 +27,8 @@ div{
     background-color: #FBC101;
     text-align: center;
     font-size: 500%;
-    color: white;
+    font-family: "Arial Black";
+    color: black;
     font-weight: bold;
     padding-bottom: none;
 }
