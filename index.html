@@ -8,10 +8,12 @@
 <script type="text/javascript" src="scripts/script.js"></script>
 <body>
     
+    <!-- Header -->
     <div class="header">
     Drinking Game Rule Generator
     </div>
     
+<!-- Button and input line for adding players -->
 <!--
     <div>
         <button class="btn" id="button1" onclick="add_player();">Add Player</button>
@@ -19,17 +21,21 @@
     </div>
 -->
     
+    <!-- New Rule Button -->
     <div>
         <button class="btn" id="button2" onclick="display_rule();">New Rule</button>
     </div>
+    
+    <!-- "Result" element displaying drinking rule -->
     <h1 id="Result"></h1>
     
+    <!-- multiple choice selection box for list inclusion -->
     <div>
         <select id="choices" multiple="multiple">
-            <option value="stripping_rules">18+</option>
-            <option value="drinking_rules">21+</option>
             <option value="clean_rules">clean</option>
-            <option value="smoking_rules">420 friendly</option>
+            <option value="stripping_rules">get neked</option>
+            <option value="drinking_rules">get drunk</option>
+            <option value="smoking_rules">get stoney</option>
             <option value="sex_rules">spice it up</option>
         </select>
     </div>

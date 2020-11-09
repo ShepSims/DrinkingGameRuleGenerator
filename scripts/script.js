@@ -3,7 +3,6 @@ var smoking_rules = Array();
 var drinking_rules = Array();
 var stripping_rules = Array();
 var sex_rules = Array();
-var test_rules = Array();
 var selections = Array();
 var rules = Array();
 var players = [];
@@ -22,6 +21,9 @@ clean_rules.push("Do your best impression of someone at the table");
 clean_rules.push("Reverse order");
 clean_rules.push("Post on Instagram");
 clean_rules.push("You owe the person to your left food");
+clean_rules.push("Roast someone");
+clean_rules.push("Do five ' I'm a star' jumps");
+clean_rules.push("go make snacks for the group");
 
 
 //Add Smoking Rules
@@ -32,7 +34,7 @@ smoking_rules.push("geeb");
 smoking_rules.push("take 2 hits");
 smoking_rules.push("choose someone to take a hit");
 smoking_rules.push("choose someone to take 2 hits");
-
+smoking_rules.push("whoever has the reddest eyes take another toke");
 
 
 //Add Drinking Rules
@@ -56,6 +58,14 @@ drinking_rules.push("finish your drink");
 drinking_rules.push("choose someone to finish their drink");
 drinking_rules.push("headstand or drink");
 drinking_rules.push("Switch names with someone.  Whenever another player calls either of you by the wrong name, they drink");
+drinking_rules.push("You can't talk until you finish your drink");
+drinking_rules.push("choose a drinking buddy and finish your drinks");
+drinking_rules.push("take 3 drinks");
+drinking_rules.push("get everyone who needs one another drink");
+drinking_rules.push("You must remove an imaginary little green man from the rim of your drink every time you take a sip and replace him after. Should another player catch you failing to do your duty you must finish your drink. It is your responsibility to take care of the little green man until another player is assigned the role");
+drinking_rules.push("give out 5 drinks");
+drinking_rules.push("give out 5 drinks");
+
 
 //Add Stripping Rules
 
@@ -79,9 +89,9 @@ sex_rules.push("Who is the hottest MPS in the room?");
 sex_rules.push("Get Wet");
 sex_rules.push("How long has it been since your last hook up?");
 sex_rules.push("What is the nastiest thing you have ever done in public?");
-sex_rules.push("Who is the worst in bed?");
-sex_rules.push("Who is the best in bed?");
-sex_rules.push("Where is the riskiest place you have ever had sex?");
+sex_rules.push("Which player is the worst in bed?");
+sex_rules.push("Which player is the best in bed?");
+//sex_rules.push("Where is the riskiest place you have ever had sex?");
 sex_rules.push("Compliment the player with the best ass");
 sex_rules.push("What is your body count");
 sex_rules.push("Give a lap dance");
