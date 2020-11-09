@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #FBC101;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin-bottom: 5;
+    font-size: 500%
+}
+
+div{
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style the header */
+.header {
+    background-color: #FBC101;
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-weight: bold;
+    padding-bottom: none;
+}
+
+.btn { 
+    text-decoration: none; 
+    align-content: center;
+    border: none; 
+    padding: 12px 40px; 
+    font-size: 16px; 
+    background-color: deepskyblue; 
+    color: #fff; 
+    border-radius: 5px; 
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.1s; 
+} 
+
+/* Scales button to 95%  original size and lowers shadow */
+.btn:active { 
+    transform: scale(0.95);  
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+} 
+
+select {
+    align-self: center;
+    text-align: center;
+    background:#FBC101;
+    border:none;
+    height:100px;
+    width:260px;
+}
