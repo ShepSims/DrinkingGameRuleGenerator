@@ -14,6 +14,15 @@ clean_rules.push("Serenade the person to your right");
 clean_rules.push("Get Wet");
 clean_rules.push("Trade shoes with the person to your left");
 clean_rules.push("Trade shirts with the person to your right");
+clean_rules.push("Do the worm");
+clean_rules.push("Call your mom");
+clean_rules.push("Do 10 pushups");
+clean_rules.push("Evil Laugh");
+clean_rules.push("Do your best impression of someone at the table");
+clean_rules.push("Reverse order");
+clean_rules.push("Post on Instagram");
+clean_rules.push("You owe the person to your left food");
+
 
 //Add Smoking Rules
 
@@ -39,6 +48,14 @@ drinking_rules.push("Drink for every person who you can't name in the room.");
 drinking_rules.push("Give a drink");
 drinking_rules.push("shotgun");
 drinking_rules.push("Last person to touch the floor, drink");
+drinking_rules.push("All singles drink");
+drinking_rules.push("bodyshot");
+drinking_rules.push("No more cussing!  If you do you drink");
+drinking_rules.push("Last person standing drinks.  1,2,3 GO!");
+drinking_rules.push("finish your drink");
+drinking_rules.push("choose someone to finish their drink");
+drinking_rules.push("headstand or drink");
+drinking_rules.push("Switch names with someone.  Whenever another player calls either of you by the wrong name, they drink");
 
 //Add Stripping Rules
 
@@ -46,6 +63,11 @@ stripping_rules.push("Strip");
 stripping_rules.push("Give a strip");
 stripping_rules.push("Oldest player strip");
 stripping_rules.push("Most clothed strip");
+stripping_rules.push("Take an article of clothing off the person to your left");
+stripping_rules.push("Whoever has the longest last name strips");
+stripping_rules.push("Whoever has the most annoying laugh strips");
+stripping_rules.push("Vote on who should strip");
+
 
 //Add Sexual Rules
 
@@ -62,6 +84,9 @@ sex_rules.push("Who is the best in bed?");
 sex_rules.push("Where is the riskiest place you have ever had sex?");
 sex_rules.push("Compliment the player with the best ass");
 sex_rules.push("What is your body count");
+sex_rules.push("Give a lap dance");
+sex_rules.push("Get a lap dance");
+
 
 
 /* 
